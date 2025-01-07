@@ -2,7 +2,7 @@
 @charset "UTF-8";
 
 /* Importar estilos si es necesario */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap') layer;
 
 /* Estilos base */
 body {
@@ -10,6 +10,10 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* Estilos específicos para el agente */
@@ -17,4 +21,6 @@ elevenlabs-convai {
     width: 100%;
     max-width: 600px;
     height: 600px;
+    border: none;
+    outline: none;
 }
