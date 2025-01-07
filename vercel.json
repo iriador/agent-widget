@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-eval' https://elevenlabs.io https://api.us.elevenlabs.io; connect-src https://api.us.elevenlabs.io wss://api.us.elevenlabs.io; img-src 'self' https://storage.googleapis.com; style-src 'self' 'unsafe-inline';"
+          "value": "default-src 'self'; script-src 'self' 'unsafe-eval'; connect-src https://api.us.elevenlabs.io wss://api.us.elevenlabs.io; style-src 'self' 'unsafe-inline'; img-src 'self' https://storage.googleapis.com; font-src 'self' https://fonts.googleapis.com; frame-src 'self';"
         }
       ]
     }
